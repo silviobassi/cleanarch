@@ -45,7 +45,7 @@ public sealed class Product : Entity
             "Invalid description. Description must have at least 5 characters");
         DomainExceptionValidation.When(price < 0, "Invalid price value");
         DomainExceptionValidation.When(stock < 0, "Invalid stock value");
-        DomainExceptionValidation.When(string.IsNullOrEmpty(image), "Invalid image. Image is required");
+        DomainExceptionValidation.When(image?.Length > 250, "Invalid image name. Image must have at most 250 characters");
     }
 
     private void AssignProduct(string? name, string? description, decimal price, int stock, string? image, int categoryId)
