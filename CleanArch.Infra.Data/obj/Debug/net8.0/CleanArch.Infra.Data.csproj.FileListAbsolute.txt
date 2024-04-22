@@ -13,3 +13,6 @@ C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.Data\obj\Debug\net8.0\
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.Data\obj\Debug\net8.0\refint\CleanArch.Infra.Data.dll
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.Data\obj\Debug\net8.0\CleanArch.Infra.Data.pdb
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.Data\obj\Debug\net8.0\ref\CleanArch.Infra.Data.dll
+C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.Data\bin\Debug\net8.0\CleanArch.Infra.Data.runtimeconfig.json
+C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.Data\obj\Debug\net8.0\CleanArch.Infra.Data.sourcelink.json
+C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.Data\obj\Debug\net8.0\CleanArch.Infra.Data.genruntimeconfig.cache
