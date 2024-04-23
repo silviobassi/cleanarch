@@ -15,11 +15,5 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
         builder.HasOne(c => c.Category)
             .WithMany(c => c.Products)
             .HasForeignKey(p => p.CategoryId);
-
-        builder.HasData(
-            new Category(1, "Material Escolar"),
-            new Category(2, "Eletrônicos"),
-            new Category(3, "Acessórios")
-        );
     }
 }

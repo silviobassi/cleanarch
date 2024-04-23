@@ -17,3 +17,6 @@ C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.IoC\obj\Debug\net8.0\C
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.IoC\obj\Debug\net8.0\refint\CleanArch.Infra.IoC.dll
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.IoC\obj\Debug\net8.0\CleanArch.Infra.IoC.pdb
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.IoC\obj\Debug\net8.0\ref\CleanArch.Infra.IoC.dll
+C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.IoC\obj\Debug\net8.0\CleanArch.Infra.IoC.sourcelink.json
+C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.IoC\bin\Debug\net8.0\CleanArch.Infra.IoC.runtimeconfig.json
+C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Infra.IoC\obj\Debug\net8.0\CleanArch.Infra.IoC.genruntimeconfig.cache
