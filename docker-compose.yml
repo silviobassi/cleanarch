@@ -8,7 +8,7 @@ services:
     ports:
       - "1433:1433"
     environment:
-      SA_PASSWORD: "1234" # user and passowrd
+      SA_PASSWORD: "12345678dev_#"
       ACCEPT_EULA: "Y"
       MSSQL_PID: "Developer"
       MSSQL_AGENT_ENABLED: "true"
