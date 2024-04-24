@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Br+ArNEBYW83b6dTVRWSePWkhqZ3mNqiSoL1cFXhToIRhpAH4HoWfuGJPfyxDYOpa+92b6UdUUKGd6fTqqo5Cw==",
+  "dgSpecHash": "K9vzj3dOE+MuSokN5XZ8xTGP4lPyF946iqyuSPaUEpvwdenDK7LSv5w85oCrO+sH6OyO9yg0GH8DTmTaAE8OGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\silvio\\Projects\\Dotnet\\CleanArch\\CleanArch.Application\\CleanArch.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\silvio\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\silvio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\silvio\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\silvio\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\silvio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\silvio\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\silvio\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\silvio\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"

@@ -13,10 +13,10 @@ public sealed class Product : Entity
     public int CategoryId { get; set; }
     public Category? Category { get; set; }
 
-    public Product(string? name, string? description, decimal price, int stock, string? image, int categoryId)
+    public Product(string? name, string? description, decimal price, int stock, string? image)
     {
         ValidateDomain(name, description, price, stock, image);
-        AssignProduct(name, description, price, stock, image, categoryId);
+        AssignProduct(name, description, price, stock, image);
     }
 
 
@@ -26,13 +26,15 @@ public sealed class Product : Entity
         ValidateDomain(name, description, price, stock, image);
         DomainExceptionValidation.When(id < 0, "Invalid Product Id value");
         Id = id;
-        AssignProduct(name, description, price, stock, image, categoryId);
+        AssignProduct(name, description, price, stock, image);
+        CategoryId = categoryId;
     }
 
     public void Update(string? name, string? description, decimal price, int stock, string? image, int categoryId)
     {
         ValidateDomain(name, description, price, stock, image);
-        AssignProduct(name, description, price, stock, image, categoryId);
+        AssignProduct(name, description, price, stock, image);
+        CategoryId = categoryId;
     }
 
     private static void ValidateDomain(string? name, string? description, decimal price, int stock, string? image)
@@ -48,13 +50,12 @@ public sealed class Product : Entity
         DomainExceptionValidation.When(image?.Length > 250, "Invalid image name. Image must have at most 250 characters");
     }
 
-    private void AssignProduct(string? name, string? description, decimal price, int stock, string? image, int categoryId)
+    private void AssignProduct(string? name, string? description, decimal price, int stock, string? image)
     {
         Name = name;
         Description = description;
         Price = price;
         Stock = stock;
         Image = image;
-        CategoryId = categoryId;
     }
 }
