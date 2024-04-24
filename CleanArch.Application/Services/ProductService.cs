@@ -6,7 +6,7 @@ using CleanArch.Domain.Interfaces;
 
 namespace CleanArch.Application.Services;
 
-public class ProductService(IMapperBase mapper, IProductRepository productRepository) : IProductService
+public class ProductService(IMapper mapper, IProductRepository productRepository) : IProductService
 {
     public async Task<IEnumerable<ProductDto>> GetProductsAsync()
     {

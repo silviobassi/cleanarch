@@ -143,3 +143,4 @@ C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Api\bin\Debug\net8.0\ru\Micr
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\silvio\Projects\Dotnet\CleanArch\CleanArch.Api\bin\Debug\net8.0\AutoMapper.dll

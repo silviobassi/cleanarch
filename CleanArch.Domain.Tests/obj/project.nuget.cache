@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "riU7DRdA7i1+lEwL/Gtor56oZimIaEDIckmAs3BmvpsYQNrzChuOneEGHoijBNbsSs8OEUcOUVOaFzqYEnO/hQ==",
+  "dgSpecHash": "hpBYDBgn6oaKr2j7T8V328s6mgvg1cO5muRfOATSyRK6b7jLbnIagT2d+KNpGR2+gXtsmEQKbm+1vJgVJb5dsw==",
   "success": true,
   "projectFilePath": "C:\\Users\\silvio\\Projects\\Dotnet\\CleanArch\\CleanArch.Domain.Tests\\CleanArch.Domain.Tests.csproj",
   "expectedPackageFiles": [

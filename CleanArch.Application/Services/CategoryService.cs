@@ -6,7 +6,7 @@ using CleanArch.Domain.Interfaces;
 
 namespace CleanArch.Application.Services;
 
-public class CategoryService(IMapperBase mapper, ICategoryRepository categoryRepository) : ICategoryService
+public class CategoryService(IMapper mapper, ICategoryRepository categoryRepository) : ICategoryService
 {
     public async Task<IEnumerable<CategoryDto>> GetCategoriesAsync()
     {

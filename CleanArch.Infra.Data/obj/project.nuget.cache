@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IqL3SpbdNVRgMACrC2vLlO00Qg9CcKdqu+URtd8pBiIrHc6KvWsx2V/NT8LGGbWkpazjLJUvcgDcRmrH22AMGw==",
+  "dgSpecHash": "xY+WOw4/RmKv6TuF79/Pxt/lemQ/2xw84bfjDw9BLAirbfi2SaYx7ObcxnNS0tQ8j5gjN0XExDH12+j8IarHEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\silvio\\Projects\\Dotnet\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
   "expectedPackageFiles": [

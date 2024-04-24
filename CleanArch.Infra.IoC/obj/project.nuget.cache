@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PaL6YX1zkapQmA+dZ7g1vgbqnQ2RjapwQt7o/JPBxVoXSFpc41hulBFp7sP6Yx5la/uz4nAJkjZrRH/go3N4kw==",
+  "dgSpecHash": "d28iz3l2DhsNeEDI2aTLN/ehPT4CkU3UrZBrh4C+jUYfYU+z6eOr0QMOnAlLLIEaxx0j9LnMn+BGEno7FIpzHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\silvio\\Projects\\Dotnet\\CleanArch\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
   "expectedPackageFiles": [
