@@ -68,6 +68,37 @@
           }
         }
       },
+      "Mediator/1.0.2123": {
+        "dependencies": {
+          "ServiceStack.Text": "3.2.2"
+        },
+        "runtime": {
+          "lib/Mediator.dll": {
+            "assemblyVersion": "1.0.2123.0",
+            "fileVersion": "1.0.2123.0"
+          }
+        }
+      },
+      "MediatR/12.2.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.2.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -617,6 +648,14 @@
           }
         }
       },
+      "ServiceStack.Text/3.2.2": {
+        "runtime": {
+          "lib/ServiceStack.Text.dll": {
+            "assemblyVersion": "3.2.2.5660",
+            "fileVersion": "3.2.2.5660"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -912,7 +951,8 @@
       "CleanArch.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "CleanArch.Domain": "1.0.0"
+          "CleanArch.Domain": "1.0.0",
+          "MediatR": "12.2.0"
         },
         "runtime": {
           "CleanArch.Application.dll": {}
@@ -938,7 +978,8 @@
           "AutoMapper": "13.0.1",
           "CleanArch.Application": "1.0.0",
           "CleanArch.Domain": "1.0.0",
-          "CleanArch.Infra.Data": "1.0.0"
+          "CleanArch.Infra.Data": "1.0.0",
+          "Mediator": "1.0.2123"
         },
         "runtime": {
           "CleanArch.Infra.IoC.dll": {}
@@ -979,6 +1020,27 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Mediator/1.0.2123": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rl1ogCbyFIAuFc3t9L+VnLIa12VK+Le38SHKs+94VGsBpIqZmqBHfBpudt52VmqzNP17k8mlzHGNfZuteSyrQA==",
+      "path": "mediator/1.0.2123",
+      "hashPath": "mediator.1.0.2123.nupkg.sha512"
+    },
+    "MediatR/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8TUFrHapKi6D74PhnSNEguRsH91HNGyP3R4ZQdgDorJgl9Wac5Prh0vA33QfrniAaS6L2xNNhc6vxzg+5AIbwA==",
+      "path": "mediatr/12.2.0",
+      "hashPath": "mediatr.12.2.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -1259,6 +1321,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "ServiceStack.Text/3.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PINVnZiz4u6MVuz/7Y9ru2inAA8AiRLvC72rnnvRLo19iFHDMDNzn7oMozvZ+OGVjqSL9LEUx6z1Rti9xJav8w==",
+      "path": "servicestack.text/3.2.2",
+      "hashPath": "servicestack.text.3.2.2.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

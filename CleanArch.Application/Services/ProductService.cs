@@ -12,22 +12,15 @@ public class ProductService(IMapper mapper, IMediator mediator) : IProductServic
     public async Task<IEnumerable<ProductDto>> GetProductsAsync()
     {
         var productsQuery = new GetProductsQuery();
+        HasEntity(productsQuery);
         var product = await mediator.Send(productsQuery);
         return mapper.Map<IEnumerable<ProductDto>>(product);
     }
 
-    public async Task<ProductDto> GetProductCategoryAsync(int? id)
-    {
-        HasId(id);
-        var productCategoryByIdQuery = new GetProductCategoryByIdQuery() { Id = id.Value };
-        var product = await mediator.Send(productCategoryByIdQuery);
-        return mapper.Map<ProductDto>(product);
-    }
-    
     public async Task<ProductDto> GetByIdAsync(int? id)
     {
-        HasId(id);
-        var productQueryByIdQuery = new GetProductByIdQuery() { Id = id.Value };
+        var productQueryByIdQuery = new GetProductByIdQuery() { Id = HasId(id) };
+        HasEntity(productQueryByIdQuery);
         var product = await mediator.Send(productQueryByIdQuery);
         return mapper.Map<ProductDto>(product);
     }
@@ -46,15 +39,20 @@ public class ProductService(IMapper mapper, IMediator mediator) : IProductServic
 
     public async Task RemoveAsync(int? id)
     {
-        HasId(id);
-        var productGetByIdQuery = new GetProductByIdQuery() { Id = id.Value };
-        var product = await mediator.Send(productGetByIdQuery);
-        if (product == null)
-            throw new Exception("Product not found");
-        var productRemoveCommand = new ProductRemoveCommand() { Id = product.Id };
+        var productRemoveCommand = new ProductRemoveCommand() { Id = HasId(id) };
+        HasEntity(productRemoveCommand);
         await mediator.Send(productRemoveCommand);
     }
 
-    private static void HasId(int? id) => _ = id ?? throw new ArgumentNullException(nameof(id));
-    
+    private static void HasEntity<T>(T commandOrQuery)
+    {
+        if (commandOrQuery == null)
+            throw new Exception("Entity could not be loaded.");
+    }
+
+    private static int HasId(int? id)
+    {
+        if (id == null) throw new ArgumentNullException(nameof(id));
+        return id.Value;
+    }
 }

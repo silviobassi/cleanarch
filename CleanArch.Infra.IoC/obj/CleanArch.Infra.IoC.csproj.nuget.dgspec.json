@@ -254,6 +254,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Mediator": {
+              "target": "Package",
+              "version": "[1.0.2123, )"
             }
           },
           "imports": [

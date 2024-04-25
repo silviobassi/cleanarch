@@ -1,6 +1,5 @@
 ﻿using CleanArch.Application.DTOs;
 using CleanArch.Application.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArch.Api.Controllers
@@ -15,14 +14,6 @@ namespace CleanArch.Api.Controllers
             var products = await productService.GetProductsAsync();
             return Ok(products);
         }
-
-        [HttpGet("categories/{id:int}")]
-        public async Task<IActionResult> GetByCategory(int id)
-        {
-            var products = await productService.GetProductCategoryAsync(id);
-            return Ok(products);
-        }
-
 
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetById(int id)

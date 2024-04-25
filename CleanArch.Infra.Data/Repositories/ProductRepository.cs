@@ -14,15 +14,10 @@ public class ProductRepository(ApiDbContext context) : IProductRepository
 
     public async Task<Product?> GetByIdAsync(int? id)
     {
-        return await context.Products.FirstOrDefaultAsync(p => p.Id == id);
-    }
-
-    public async Task<Product?> GetProductCategoryAsync(int? id)
-    {
         return await context.Products.Include(p => p.Category)
             .SingleOrDefaultAsync(p => p.Id == id);
     }
-
+    
     public async Task<Product> CreateAsync(Product product)
     {
         context.Add(product);
